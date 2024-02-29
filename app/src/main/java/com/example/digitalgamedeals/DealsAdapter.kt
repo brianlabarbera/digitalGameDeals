@@ -10,11 +10,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
 class DealsAdapter(private val gameNormalPriceList: List<String>,
-                    private val gameSalePriceList: List<String>,
-                    private val gameStoreList: List<String>,
-                    private val gameThumbnailList: List<String>,
-                    private val gameRatingNumList: List<String>,
-                    private val gameRatingTextList: List<String>): RecyclerView.Adapter<DealsAdapter.ViewHolder>(){
+                   private val gameSalePriceList: List<String>,
+                   private val gameStoreList: List<String>,
+                   private val gameThumbnailList: List<String>,
+                   private val gameRatingNumList: List<String>,
+                   private val gameRatingTextList: List<String>): RecyclerView.Adapter<DealsAdapter.ViewHolder>(){
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
