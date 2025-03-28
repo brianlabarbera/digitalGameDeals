@@ -54,20 +54,6 @@
         android:textSize="10sp"
         app:layout_constraintTop_toBottomOf="@id/editTextGameSearch"
         app:layout_constraintStart_toStartOf="@id/editTextGameSearch" />
-    <TextView
-        android:id="@+id/group_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="cursive"
-        android:text="@string/group_name"
-        android:textAlignment="center"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.99" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/game_list"
